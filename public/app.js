@@ -1,5 +1,7 @@
 angular.module('app', [
-  'ui.router'
+  'ui.router',
+  'ui.bootstrap',
+  'homepage'
   ])
 
 .config(router)
