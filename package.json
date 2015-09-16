@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./server/server.js",
     "bower": "bower install",
-    "test": "karma start karma.config.js"
+    "test": "karma start karma.config.js",
+    "postinstall": "bower install && grunt build"
   },
   "dependencies": {
     "aws-sdk": "^2.1.50",
