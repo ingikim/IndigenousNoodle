@@ -4,6 +4,10 @@
 
   homepageController.$inject = ['$state'];
 
+  $( "#tags" ).autocomplete({
+    source: availableTags
+  });
+
   function homepageController($state) {
     $('#nav-header').removeClass("nav-color")
     
@@ -27,3 +31,4 @@
   }
 
 })();
+
